@@ -25,7 +25,7 @@ class App extends Component {
       todos: this.getDefaultTodoList(),
     };
 
-    this.addTodo = this.addTodo.bind(this);
+    (this: any).addTodo = this.addTodo.bind(this);
     this.input = null;
   }
 
